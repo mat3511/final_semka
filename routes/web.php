@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserControler;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,6 +22,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::group(['middleware' => ['auth']], function (){
+    Route::resource('user', UserControler::class);
+    Route::get('user/{user}/delete', [UserControler::class, 'destroy'])->name('user.delete');
+});
