@@ -3,7 +3,7 @@
          {{ $error }}<br>
     @endforeach
 </div>
-<form method="post" action="{{ $action }}">
+<form method="{post" action="{ $action }}">
     @csrf
     @method($method)
     <div class="form-group">
@@ -23,5 +23,5 @@
         <label for="password">Password again</label>
         <input type="password" class="form-control" id="password" name="password_confirmation" placeholder="Password">
     </div>
-    <button type="submit" class="btn btn-primary">Odoslat</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
 </form>

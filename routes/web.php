@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\UserControler;
+use App\Http\Controllers\ArticleCOntroller;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,7 +23,9 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/add', 'ArticleController@index')->name('add');
+
 Route::group(['middleware' => ['auth']], function (){
-    Route::resource('user', UserControler::class);
-    Route::get('user/{user}/delete', [UserControler::class, 'destroy'])->name('user.delete');
+    Route::resource('user', UserController::class);
+    Route::get('user/{user}/delete', [UserController::class, 'destroy'])->name('user.delete');
 });
