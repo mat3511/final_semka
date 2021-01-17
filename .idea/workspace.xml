@@ -19,12 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83942e5e-47cb-4091-90a8-ec067c8b7956" name="Default Changelist" comment="zaciatok konca2">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/article/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/article/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/16e5ca99-3b2a-44c5-95b8-f9b8db2a8c2d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/16e5ca99-3b2a-44c5-95b8-f9b8db2a8c2d.xml" afterDir="false" />
+    <list default="true" id="83942e5e-47cb-4091-90a8-ec067c8b7956" name="Default Changelist" comment="pokusy o spojazdnenie">
+      <change afterPath="$PROJECT_DIR$/app/Models/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/article/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/article/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/article/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/article/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/article/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/article/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/user/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -209,7 +211,10 @@
       <workItem from="1610460202977" duration="584000" />
       <workItem from="1610461006237" duration="758000" />
       <workItem from="1610789134956" duration="11479000" />
-      <workItem from="1610805830186" duration="3761000" />
+      <workItem from="1610805830186" duration="12356000" />
+      <workItem from="1610877588797" duration="16458000" />
+      <workItem from="1610904840729" duration="2554000" />
+      <workItem from="1610922191440" duration="389000" />
     </task>
     <task id="LOCAL-00001" summary="zaciatok konca">
       <created>1609756830127</created>
@@ -225,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609770031318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pokusy o spojazdnenie">
+      <created>1610811692557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610811692557</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +259,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="zaciatok konca" />
     <MESSAGE value="zaciatok konca2" />
-    <option name="LAST_COMMIT_MESSAGE" value="zaciatok konca2" />
+    <MESSAGE value="pokusy o spojazdnenie" />
+    <option name="LAST_COMMIT_MESSAGE" value="pokusy o spojazdnenie" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="96" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610811049542">
@@ -263,10 +276,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="217" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610803941486" />
-    <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1610800831858">
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610905336669">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610800831858" />
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610905336669" />
+    <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1610879110309">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610879110309" />
     <state x="838" y="423" width="450" height="204" key="Github.ShareDialog" timestamp="1609751237143">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -279,9 +296,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610801607835" />
-    <state x="2281" y="150" key="Vcs.Push.Dialog.v2" timestamp="1609770036029">
-      <screen x="1920" y="0" width="1536" height="834" />
+    <state x="451" y="189" key="Vcs.Push.Dialog.v2" timestamp="1610811723716">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="451" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610811723716" />
     <state x="2281" y="150" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1536.834@1920.0.1536.834" timestamp="1609770036029" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1610793416317">
       <screen x="0" y="0" width="1920" height="1050" />

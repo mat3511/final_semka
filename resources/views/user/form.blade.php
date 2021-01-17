@@ -3,7 +3,7 @@
          {{ $error }}<br>
     @endforeach
 </div>
-<form method="{post" action="{ $action }}">
+<form method="post" action="{{ $action }}">
     @csrf
     @method($method)
     <div class="form-group">
