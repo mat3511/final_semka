@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Article;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class ArticleController extends Controller
@@ -11,23 +12,6 @@ class ArticleController extends Controller
         $articles  = Article::all()->toArray();
         return view('article.index', compact('articles'));
     }
-
-//    function addData(Request $request)
-//    {
-//        $request->validate([
-//            'title' => 'required|min:5',
-//            'header' => 'required|min:6',
-//            'text' => 'required|min:20']);
-//
-//        $article = new Article;
-//
-//        $article->title = $request->title;
-//        $article->header = $request->header;
-//        $article->text = $request->text;
-//
-//        $article->save();
-//        return redirect('home');
-//    }
 
     public function create()
     {
@@ -61,7 +45,7 @@ class ArticleController extends Controller
             'action' => route('article.update', $article->id),
             'method' =>  'put',
             'model' => $article
-        ]);
+        ])->with('article', $article);
     }
 
     public function update(Request $request, Article $article)

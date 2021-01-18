@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Article extends Model
+class Review extends Model
 {
     use HasFactory;
 
@@ -18,9 +18,7 @@ class Article extends Model
      */
     protected $fillable = [
         'title',
-        'header',
         'text',
-        'author'
+        'path'
     ];
-
 }

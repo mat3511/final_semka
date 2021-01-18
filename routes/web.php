@@ -44,3 +44,9 @@ Route::group(['middleware' => ['auth']], function (){
     Route::resource('article', ArticleController::class);
     Route::get('article/{article}/delete', [ArticleController::class, 'destroy'])->name('article.delete');
 });
+
+//Route::get('/galery', function () {
+//    return view('galery.index');
+//})->name('galery.index');
+
+Route::get('/galery', 'App\Http\Controllers\GaleryController@index')->name('/galery');

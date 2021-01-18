@@ -4,20 +4,20 @@
     @endforeach
 </div>
 
-<form method="post" action="{{ $action }}">
+<form method="post" action="{{$action}}}">
     @csrf
     @method($method)
     <div class="form-group">
         <label class="popis">Title</label>
-        <input name="title" id="title" type="text" placeholder="Enter title" class="form-control" value="{{ old( 'title', @$model->title) }}" required>
+        <input name="title" id="title" type="text" placeholder="Enter title" class="form-control" value="{{$article->title}}" required>
     </div>
     <div class="form-group">
         <label class="popis">Header</label>
-        <input name="header" id="header" type="text" placeholder="Enter header" class="form-control" value="{{ (@$model->header) }}" required>
+        <input name="header" id="header" type="text" placeholder="Enter header" class="form-control" value="{{ $article->header }}" required>
     </div>
     <div class="form-group">
         <label class="popis">Text</label>
-        <textarea name="text" id="text" type="text" placeholder="Enter text" class="form-control" value="{{ (@$model->text) }}" required></textarea>
+        <textarea name="text" id="text" type="text" placeholder="Enter text" class="form-control" required>{{ $article->text }}</textarea>
     </div>
     <button type="submit" class="btn btn-primary tlacidlo">Save</button>
 </form>

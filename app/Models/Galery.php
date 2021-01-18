@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Article extends Model
+class Galery extends Model
 {
     use HasFactory;
 
@@ -17,10 +17,6 @@ class Article extends Model
      * @var array
      */
     protected $fillable = [
-        'title',
-        'header',
-        'text',
-        'author'
+        'path'
     ];
-
 }

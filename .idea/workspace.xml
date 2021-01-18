@@ -19,16 +19,42 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83942e5e-47cb-4091-90a8-ec067c8b7956" name="Default Changelist" comment="pokusy o spojazdnenie">
-      <change afterPath="$PROJECT_DIR$/app/Models/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/article/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/article/edit.blade.php" afterDir="false" />
+    <list default="true" id="83942e5e-47cb-4091-90a8-ec067c8b7956" name="Default Changelist" comment="CURD pre article">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/GaleryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Galery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Review.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/obr1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/obr2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/obr3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/obr4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/obr5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/obrazok1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/obrazok2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/obrazok3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/pozadie1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/obr1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/obr2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/obr3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/obr4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/obr1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/obr2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/obr3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/obr4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/obr5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/obrazok1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/obrazok2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/obrazok3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pozadie1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/galery/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/16e5ca99-3b2a-44c5-95b8-f9b8db2a8c2d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/16e5ca99-3b2a-44c5-95b8-f9b8db2a8c2d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/article/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/article/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/article/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/article/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/user/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,9 +205,19 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Skola\FRI\3.roc\Zimny\VAII\php_mysql\www\final\public\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Skola\FRI\3.roc\Zimny\VAII\php_mysql\www\final\images" />
+      <recent name="D:\Skola\FRI\3.roc\Zimny\VAII\php_mysql\www\final" />
+      <recent name="D:\Skola\FRI\3.roc\Zimny\VAII\php_mysql\www\final\app" />
+    </key>
   </component>
   <component name="RunManager" selected="PHP Script.ArticleController.php">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -214,7 +250,9 @@
       <workItem from="1610805830186" duration="12356000" />
       <workItem from="1610877588797" duration="16458000" />
       <workItem from="1610904840729" duration="2554000" />
-      <workItem from="1610922191440" duration="389000" />
+      <workItem from="1610922191440" duration="917000" />
+      <workItem from="1610960982124" duration="14574000" />
+      <workItem from="1610996012093" duration="11325000" />
     </task>
     <task id="LOCAL-00001" summary="zaciatok konca">
       <created>1609756830127</created>
@@ -237,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610811692557</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CURD pre article">
+      <created>1610922663519</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610922663519</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +305,8 @@
     <MESSAGE value="zaciatok konca" />
     <MESSAGE value="zaciatok konca2" />
     <MESSAGE value="pokusy o spojazdnenie" />
-    <option name="LAST_COMMIT_MESSAGE" value="pokusy o spojazdnenie" />
+    <MESSAGE value="CURD pre article" />
+    <option name="LAST_COMMIT_MESSAGE" value="CURD pre article" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="96" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610811049542">
@@ -276,14 +322,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="217" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610803941486" />
-    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610905336669">
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610992401135">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610905336669" />
-    <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1610879110309">
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610992401135" />
+    <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1610963588499">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610879110309" />
+    <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610963588499" />
     <state x="838" y="423" width="450" height="204" key="Github.ShareDialog" timestamp="1609751237143">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -296,15 +342,31 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610801607835" />
-    <state x="451" y="189" key="Vcs.Push.Dialog.v2" timestamp="1610811723716">
+    <state x="451" y="189" key="Vcs.Push.Dialog.v2" timestamp="1610922673416">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="451" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610811723716" />
+    <state x="451" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610922673416" />
     <state x="2281" y="150" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1536.834@1920.0.1536.834" timestamp="1609770036029" />
+    <state x="842" y="412" width="316" height="244" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1610993006554">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="842" y="412" width="316" height="244" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610993006554" />
+    <state x="690" y="330" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1610992959680">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="330" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610992959680" />
+    <state x="802" y="258" width="502" height="454" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1611006959186">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="802" y="258" width="502" height="454" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611006959186" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1610793416317">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610793416317" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1610997125453">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610997125453" />
     <state x="539" y="195" width="840" height="854" key="search.everywhere.popup" timestamp="1610810489941">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
