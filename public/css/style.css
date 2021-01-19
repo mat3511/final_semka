@@ -1,0 +1,101 @@
+.clankyVnutro {
+    margin-bottom: 20px;
+}
+
+.clankyTop {
+    margin-top: 20px;
+}
+
+.nadpis {
+    color: grey;
+    margin-top: 40px;
+}
+
+.text {
+    color: orange;
+    text-indent: 40px;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.stranka_pozadie {
+    background-color: #15D;
+}
+
+.nadpis {
+    color: orangered;
+}
+
+.obrazky {
+    margin-top: 50px;
+}
+
+.popis {
+    margin-bottom: 0px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.formular {
+    margin-top: 25px;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.treti_riadok {
+    margin-bottom: 50px;
+}
+
+.carousel {
+    margin-top: 50px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.tlacidlo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+button:hover {
+    opacity:2;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+

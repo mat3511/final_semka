@@ -8,11 +8,11 @@
     @method($method)
     <div class="form-group">
         <label for="name">Full name</label>
-        <input type="name" class="form-control" id="name" name="name" placeholder="Full name" value="{{ $user->name }}">
+        <input type="name" class="form-control" id="name" name="name" placeholder="Full name" value="{{ old ('name', @$model->name) }}">
     </div>
     <div class="form-group">
         <label for="email">Email address</label>
-        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" value="{{ $user->email }}">
+        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" value="{{ old ('email', @$model->email) }}">
     </div>
     <div class="form-group">
         <label for="password">Password</label>
