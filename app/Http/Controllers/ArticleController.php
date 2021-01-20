@@ -17,7 +17,7 @@ class ArticleController extends Controller
     {
         return view('article.create', [
             'action' => route('article.store'),
-            'method' => 'news'
+            'method' => 'post'
         ]);
     }
 

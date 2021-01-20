@@ -19,39 +19,58 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83942e5e-47cb-4091-90a8-ec067c8b7956" name="Default Changelist" comment="pridal som galeriu, vyriešil som bug pri edite">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FanController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Fan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/cierny-medved-cina.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/kancelaria.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/koza.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/levoca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/teliatko.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/zastavenycas2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_19_221146_create_fans_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cierny-medved-cina.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/kancelaria.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/koza.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/levoca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/teliatko.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/zastavenycas2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/fans.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/news/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/news/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/news/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/news/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/16e5ca99-3b2a-44c5-95b8-f9b8db2a8c2d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/16e5ca99-3b2a-44c5-95b8-f9b8db2a8c2d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/final.iml" afterDir="false" />
+    <list default="true" id="83942e5e-47cb-4091-90a8-ec067c8b7956" name="Default Changelist" comment="pokusil som sa pridat AJAX CURD operacie pre tabulku fanusikov, vymazal som nepotrebne blady">
+      <change afterPath="$PROJECT_DIR$/images/krajci.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/havran.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/krajci.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pfitzer.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Review.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/News.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/cierny-medved-cina.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/cierny-medved-cina.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/kancelaria.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/kancelaria.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/koza.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/koza.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/levoca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/obr1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/obr12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/obr2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/obr3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/obr4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/obr5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/obrazok1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/obrazok2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/obrazok3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/pozadie1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/teliatko.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/teliatko.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/zastavenycas2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/zastavenycas2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cierny-medved-cina.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kancelaria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/koza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/levoca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/obr1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/teliatko.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/zastavenycas2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/obr1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/obr1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/obr2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/obr3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/obr4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/obr5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/obrazok1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/obrazok2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/obrazok3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pozadie1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/article/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/article/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/article/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/article/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/galery/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/galery/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/article/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/article/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/fans.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/fans.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/news/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/news/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/news/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/user/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +97,11 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="9e443636-1388-43b4-8ae2-897e3051a1c8" name="localhost" />
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -208,20 +232,21 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Skola\FRI\3.roc\Zimny\VAII\php_mysql\www\final\images" />
-      <recent name="D:\Skola\FRI\3.roc\Zimny\VAII\php_mysql\www\final" />
-      <recent name="D:\Skola\FRI\3.roc\Zimny\VAII\php_mysql\www\final\app" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Skola\FRI\3.roc\Zimny\VAII\php_mysql\www\final\public\css" />
       <recent name="D:\Skola\FRI\3.roc\Zimny\VAII\php_mysql\www\final\public\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Skola\FRI\3.roc\Zimny\VAII\php_mysql\www\final\public\images" />
+      <recent name="D:\Skola\FRI\3.roc\Zimny\VAII\php_mysql\www\final\images" />
+      <recent name="D:\Skola\FRI\3.roc\Zimny\VAII\php_mysql\www\final" />
+      <recent name="D:\Skola\FRI\3.roc\Zimny\VAII\php_mysql\www\final\app" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.ArticleController.php">
@@ -260,7 +285,9 @@
       <workItem from="1610996012093" duration="27687000" />
       <workItem from="1611083720726" duration="502000" />
       <workItem from="1611084236360" duration="408000" />
-      <workItem from="1611084660634" duration="12977000" />
+      <workItem from="1611084660634" duration="13739000" />
+      <workItem from="1611132841235" duration="4199000" />
+      <workItem from="1611137059890" duration="13726000" />
     </task>
     <task id="LOCAL-00001" summary="zaciatok konca">
       <created>1609756830127</created>
@@ -297,11 +324,28 @@
       <option name="project" value="LOCAL" />
       <updated>1611009062440</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pokusil som sa pridat AJAX CURD operacie pre tabulku fanusikov, vymazal som nepotrebne blady">
+      <created>1611099064868</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611099064868</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -322,7 +366,8 @@
     <MESSAGE value="pokusy o spojazdnenie" />
     <MESSAGE value="CURD pre article" />
     <MESSAGE value="pridal som galeriu, vyriešil som bug pri edite" />
-    <option name="LAST_COMMIT_MESSAGE" value="pridal som galeriu, vyriešil som bug pri edite" />
+    <MESSAGE value="pokusil som sa pridat AJAX CURD operacie pre tabulku fanusikov, vymazal som nepotrebne blady" />
+    <option name="LAST_COMMIT_MESSAGE" value="pokusil som sa pridat AJAX CURD operacie pre tabulku fanusikov, vymazal som nepotrebne blady" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="96" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610811049542">
@@ -354,6 +399,54 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="681" y="230" key="Github.UntrackedFilesDialog/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1609751245672" />
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1611151101563">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611151101563" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1611151101563">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611151101563" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1611151101563">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611151101563" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1611151101563">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611151101563" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1611151101563">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611151101563" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1611151101563">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611151101563" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1611151101563">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611151101563" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1611151101563">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611151101563" />
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom" timestamp="1611151101563">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611151101563" />
+    <state width="1877" height="352" key="GridCell.Tab.2.center" timestamp="1611151101563">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.center/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611151101563" />
+    <state width="1877" height="352" key="GridCell.Tab.2.left" timestamp="1611151101563">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.left/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611151101563" />
+    <state width="1877" height="352" key="GridCell.Tab.2.right" timestamp="1611151101563">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.right/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611151101563" />
     <state x="794" y="448" key="NewPhpFileDialog" timestamp="1610801607835">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -362,10 +455,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611086186126" />
-    <state x="451" y="189" key="Vcs.Push.Dialog.v2" timestamp="1611009072108">
+    <state x="451" y="189" key="Vcs.Push.Dialog.v2" timestamp="1611099082734">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="451" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611009072108" />
+    <state x="451" y="189" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611099082734" />
     <state x="2281" y="150" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1536.834@1920.0.1536.834" timestamp="1609770036029" />
     <state x="842" y="412" width="316" height="244" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1611097566334">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -387,14 +480,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610793416317" />
-    <state x="616" y="243" key="run.anything.popup" timestamp="1611084484720">
+    <state x="616" y="243" key="run.anything.popup" timestamp="1611139906102">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611084484720" />
-    <state x="539" y="195" width="840" height="854" key="search.everywhere.popup" timestamp="1610810489941">
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611139906102" />
+    <state x="539" y="195" width="840" height="854" key="search.everywhere.popup" timestamp="1611133185046">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="539" y="195" width="840" height="854" key="search.everywhere.popup/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1610810489941" />
+    <state x="539" y="195" width="840" height="854" key="search.everywhere.popup/0.0.1920.1050/1920.0.1536.834@0.0.1920.1050" timestamp="1611133185046" />
     <state x="2351" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1536.834@1920.0.1536.834" timestamp="1609757161918" />
   </component>
 </project>

@@ -4,7 +4,7 @@
     @endforeach
 </div>
 
-<form method="post" action="{{$action}}}">
+<form method="post" action="{{$action}}">
     @csrf
     @method($method)
     <div class="form-group">
@@ -13,10 +13,10 @@
     </div>
     <div class="form-group">
         <label class="popis">Text</label>
-        <textarea name="text" id="text" type="text" placeholder="Enter text" class="form-control" required>{{ old ('text', @$model->text) }}</textarea>
+        <textarea name="text" id="text" placeholder="Enter text" class="form-control" required>{{ old ('text', @$model->text) }}</textarea>
     </div>
     <div class="form-group">
-        <label class="popis">Title</label>
+        <label class="popis">Path</label>
         <input name="path" id="path" type="text" placeholder="Enter path to image" class="form-control" value="{{ old ('path', @$model->path)}}" required>
     </div>
     <button type="submit" class="btn btn-primary tlacidlo">Save</button>

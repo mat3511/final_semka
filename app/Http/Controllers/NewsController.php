@@ -16,7 +16,7 @@ class NewsController extends Controller
     {
         return view('news.create', [
             'action' => route('news.store'),
-            'method' => 'news'
+            'method' => 'post'
         ]);
     }
 

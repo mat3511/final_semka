@@ -1,12 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-<section style="padding-top: 60px">
     <div class="container">
         <div class="row">
             <div class="col md 12">
                 <div class="card">
-                    <div class="card-header">
+                    <div class="card-header fans_card">
                         Fans   <a href="" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#fanModal">Add</a>
                     </div>
                     <div class="card-body">
@@ -37,8 +36,6 @@
             </div>
         </div>
     </div>
-</section>
-
 <!-- Modal Add -->
 <div class="modal fade" id="fanModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -51,15 +48,15 @@
                 <form id="fanForm">
                     @csrf
                     <div class="form-group">
-                        <label for="first_name">First name</label>
+                        <label class="popis" for="first_name">First name</label>
                         <input type="text" class="form-control" id="first_name">
                     </div>
                     <div class="form-group">
-                        <label for="last_name">Last name</label>
+                        <label class="popis" for="last_name">Last name</label>
                         <input type="text" class="form-control" id="last_name">
                     </div>
                     <div class="form-group">
-                        <label for="nick_name">Nick name</label>
+                        <label class="popis" for="nick_name">Nick name</label>
                         <input type="text" class="form-control" id="nick_name">
                     </div>
                     <button type="submit" class="btn small btn-primary">Submit</button>

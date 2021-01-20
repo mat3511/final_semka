@@ -3,24 +3,25 @@
          {{ $error }}<br>
     @endforeach
 </div>
+
 <form method="post" action="{{ $action }}">
     @csrf
     @method($method)
     <div class="form-group">
-        <label for="name">Full name</label>
-        <input type="name" class="form-control" id="name" name="name" placeholder="Full name" value="{{ old ('name', @$model->name) }}">
+        <label class="popis" for="name">Full name</label>
+        <input class="form-control" id="name" name="name" placeholder="Full name" value="{{ old ('name', @$model->name) }}">
     </div>
     <div class="form-group">
-        <label for="email">Email address</label>
-        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" value="{{ old ('email', @$model->email) }}">
+        <label class="popis" for="email">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" value="{{ old ('email', @$model->email) }}">
     </div>
     <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+        <label class="popis" for="password">Password</label>
+        <input type="password" class="form-control" id="password" name="password">
     </div>
     <div class="form-group">
-        <label for="password">Password again</label>
-        <input type="password" class="form-control" id="password" name="password_confirmation" placeholder="Password">
+        <label class="popis" for="password">Password again</label>
+        <input type="password" class="form-control" id="password_confirm" name="password_confirmation">
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>

@@ -22,17 +22,11 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-
 //Route::get('/students', [\App\Http\Controllers\StudentController::class, 'index']);
-//
 //Route::post('/add-students', [\App\Http\Controllers\StudentController::class, 'add'])->name('student.add');
 //Route::get('students/{id}', [\App\Http\Controllers\StudentController::class, 'getStudentById']);
-//
 //Route::put('student/', [\App\Http\Controllers\StudentController::class, 'update'])->name('student.update');
-//
 //Route::delete('students/{id}', [\App\Http\Controllers\StudentController::class, 'deleteStudent']);
-
 //Route::get('/galery', function () {
 //    return view('galery.index');
 //})->name('galery.index');
@@ -41,9 +35,8 @@ Auth::routes();
 //Route::get('delete/{id}', [ArticleController::class, 'deleteData']);
 //Route::get('edit/{id}', [ArticleController::class, 'updateData']);
 //Route::resource('article', ArticleController::class);
-
 //Route::get('/add', 'App\Http\Controllers\ArticleController@create')->name('article.create');
-//Route::news('/add1', 'App\Http\Controllers\ArticleController@store')->name('article.store');
+//Route::post('/add1', 'App\Http\Controllers\ArticleController@store')->name('article.store');
 
 Route::get('/home', 'App\Http\Controllers\ArticleController@index')->name('home');
 Route::get('/', 'App\Http\Controllers\ArticleController@index')->name('/');
@@ -68,5 +61,5 @@ Route::group(['middleware' => ['auth']], function (){
 Route::get('/news', 'App\Http\Controllers\NewsController@index')->name('news.index');
 
 Route::get('/fans', [\App\Http\Controllers\FanController::class, 'index'])->name('fans');
-Route::post('/add-students', [\App\Http\Controllers\FanController::class, 'add'])->name('fan.add');
+Route::post('/add-fans', [\App\Http\Controllers\FanController::class, 'add'])->name('fan.add');
 Route::delete('fans/{id}', [\App\Http\Controllers\FanController::class, 'delete']);
